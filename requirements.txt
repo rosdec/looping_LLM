@@ -1,0 +1,10 @@
+# Core dependencies for local inference and benchmarking
+# Qwen3.5 requires the current Transformers main branch.
+torch>=2.2.0
+transformers @ git+https://github.com/huggingface/transformers.git@main
+accelerate>=0.28.0
+torchvision
+Pillow
+
+# Testing and development
+pytest>=8.0.0

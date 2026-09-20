@@ -1,0 +1,69 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+
+# Packaging and build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing, coverage, and type-checking
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Hugging Face, PyTorch, and benchmark artifacts
+hf_cache/
+.cache/
+checkpoints/
+models/
+outputs/
+runs/
+*.log
+*.pt
+*.pth
+*.safetensors
+
+# OS-specific files
+.DS_Store
+Thumbs.db
