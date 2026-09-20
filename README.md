@@ -40,8 +40,11 @@ Test 1: Ordering
   result   : PASS
   latency  : 61.14s
 
-...
+```
 
+This is a run on my CPU-only laptop
+
+```
 Accuracy : 4/4 (100%)
 Avg time : 58.30s
 
